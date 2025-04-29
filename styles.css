@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    background: url('https://www.chennaitop10.com/wp-content/uploads/2023/12/Top-10-Gyms.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1; 
+}
+/* Header */
+header {
+    background: rgba(153, 198, 16, 0.58);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+        max-width: 1800px;
+    margin: 0 auto; 
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.logo{
+
+    margin-right: 20%;
+}
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    font-family: revert;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none; 
+    position: relative; 
+    padding: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+header nav ul li a:hover {
+    color: #000000;
+    transform: scale(1.15); 
+    
+  
+}
+
+header nav ul li a:hover::after {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px; 
+    height: 2px; 
+    background-color: #ff5722; /
+    transition: background-color 0.5s ease; 
+}
+.contact-panel {
+    display:none;
+    background-color: rgb(215 182 0 / 77%);;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-items: center;
+  }
+  .contact-panel #closeBtn{
+   
+        width: 100px;
+        height: 30px;
+        align-items: center;
+        border-radius: 60px;
+        margin-top: 1rem;
+        cursor: pointer;
+        border-style: none;
+       
+  }
+  .contact-panel #closeBtn:hover{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-style: none;
+   
+}
+  
+
+/* Main content*/
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 3rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+.content-item {
+    background: rgb(141 163 14 / 70%);
+    padding: 1rem;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.content-item a{
+    text-decoration: none;
+    color:white;
+  
+    padding:3px 5px 5px 5px;
+    background: rgba(140, 255, 0, 0.826);
+    border-radius: 10px;
+}
+.content-item a:hover{
+     color:white;
+     font-weight: bold;
+     background: rgba(255, 81, 0, 0.826);
+     border-radius: 100px;
+   
+}
+.content-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 150px;
+}
+
+.contact-panel a{
+    text-decoration: none;
+    color:black
+}
+.contact-panel a:hover{
+    color: orangered;
+}
+/* Feedback section */
+.feedback-section {
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.feedback-section textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    resize: none;
+    margin-top: 1rem;
+}
+
+.feedback-section button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: rgba(153, 198, 16, 0.58);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.social-media-links a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+.social-media-links a:hover{
+
+    color: red;
+}
+
+
+/*About section*/
+.about-section {
+    background-color: rgb(215 182 0 / 77%);
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #011314b8;
+    font-weight: bold;
+}
+
+.closing-text {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+strong {
+    color: #2980b9;
+}
+
+/* Working Hours Section */
+
+.working-hours .container {
+    max-width: 600px;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.working-hours {
+    margin-top: 3rem;
+    background-color:hwb(75 6% 19% / 0.689);
+    padding: 30px 0;
+    
+    text-align: center;
+}
+
+.working-hours h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.working-hours ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.working-hours li {
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+.working-hours li {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    text-align: left; 
+    display: block; 
+}
+
+.working-hours li strong {
+    color: #03070aae;
+}
+
+.about-img{
+    max-width: 500px;
+    max-height: 400px;
+    margin-left: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); 
+}
